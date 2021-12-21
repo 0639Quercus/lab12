@@ -42,7 +42,7 @@ void checkWinner(int p, int y){
 }
 
 int main(){	
-	srand(time(0)+rand());
+	srand(time(0));
 	int playerScore, yugiScore, playerAction, yugiAction;
 	int playerCards[3] = {drawCard(), drawCard(), 0};
 	int yugiCards[3] = {drawCard(), drawCard(), 0};
